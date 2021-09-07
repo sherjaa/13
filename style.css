@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.width{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.nav__item{
+    transition: 200ms;
+    padding-bottom: 2px;
+}
+.nav__item:hover{
+    background: blue;
+    border-radius: 10px;
+}
+.navbar img {
+    margin-left: 45px;
+}
+.navbar{
+    padding: 0 !important;
+    opacity: 0.85 !important;
+    z-index: 2 !important;
+}
+.align_ic{
+    align-items: center;
+}
